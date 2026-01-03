@@ -7,6 +7,7 @@
 !.gitignore
 !README.md
 !LICENSE
+!index.md
 
 # 2025 Data ONLY
 !data/
