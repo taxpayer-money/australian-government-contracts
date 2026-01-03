@@ -25,9 +25,8 @@
     a:hover { text-decoration: underline; }
     .mermaid { text-align: center; margin: 20px 0; }
   </style>
-  <script type="module">
-    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-    
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
     // Convert code blocks with language-mermaid to mermaid divs
     document.addEventListener('DOMContentLoaded', function() {
       document.querySelectorAll('code.language-mermaid').forEach(function(code) {
@@ -43,7 +42,7 @@
       
       // Initialize mermaid after conversion
       mermaid.initialize({ 
-        startOnLoad: true,
+        startOnLoad: false,
         theme: 'base',
         themeVariables: {
           primaryColor: '#0366d6',
@@ -53,6 +52,11 @@
           secondaryColor: '#f6f8fa',
           tertiaryColor: '#fff'
         }
+      });
+      
+      // Manually run mermaid on converted divs
+      mermaid.run({
+        querySelector: '.mermaid'
       });
     });
   </script>
