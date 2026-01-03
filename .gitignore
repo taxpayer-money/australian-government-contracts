@@ -22,3 +22,6 @@ data/*
 !reports/
 reports/*
 !reports/report.md
+
+# Design doc (local only - not committed)
+!design.md
