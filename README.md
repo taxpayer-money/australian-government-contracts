@@ -1,8 +1,8 @@
 # ACT Government Contracts - Open Data
 
-**Comprehensive dataset and insights on ACT Government contracts (2024-2025)**
+**Comprehensive dataset and insights on ACT Government contracts 2025**
 
-This repository contains publicly available contract data from the ACT Government Tenders Portal, along with detailed analytical reports revealing spending patterns, supplier trends, and market opportunities.
+This repository contains publicly available contract data from the ACT Government Tenders Portal, along with a detailed narrative analysis revealing spending patterns, supplier trends, and market opportunities.
 
 ---
 
@@ -14,29 +14,19 @@ This repository contains publicly available contract data from the ACT Governmen
 - **Data Coverage**: 100%
 - **File**: [`data/act_contracts_2025.csv`](data/act_contracts_2025.csv)
 
-### 2024 Contracts
-- **Total Contracts**: 640
-- **Total Value**: $1.94 billion
-- **Data Coverage**: 81.9%
-- **File**: [`data/act_contracts_2024.csv`](data/act_contracts_2024.csv)
-
-### Year-over-Year Trends
-- **+102% more contracts** in 2025
-- **-15% lower total value** in 2025
-- **-58% lower average contract size** in 2025
-- **Shift toward smaller, more frequent contracts**
+**Key Statistics**:
+- **Unique Suppliers**: 772
+- **Largest Contract**: $420M (SG Fleet - fleet management)
+- **Median Contract**: $66,900
+- **Average Contract**: $1.26M
 
 ---
 
-## 📈 Reports & Insights
+## 📈 Narrative Report
 
-### Standard Analysis Reports
-- [2025 Insights Report](reports/insights_2025.md) - Market overview, spending patterns, supplier analysis
-- [2024 Insights Report](reports/insights_2024.md) - Historical comparison and trends
+**[Inside $1.64 Billion: The Story of ACT Government Spending in 2025](reports/report.md)**
 
-### Deep Dive Analysis
-- [2025 Deep Insights](reports/deep_insights_2025.md) - Anomalies, outliers, and "wow factors"
-- [2024 Deep Insights](reports/deep_insights_2024.md) - Historical anomalies and patterns
+A narrative-driven analysis revealing the hidden patterns in government procurement. No charts for the sake of charts. No generic insights. Just the story the data tells.
 
 **Key Findings**:
 - Top 2 suppliers control 43% of 2025 market with just 2 contracts
