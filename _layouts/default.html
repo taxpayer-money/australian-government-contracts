@@ -13,17 +13,42 @@
     <!-- Mermaid.js for diagram rendering -->
     <script type="module">
       import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-      mermaid.initialize({ 
-        startOnLoad: true,
-        theme: 'base',
-        themeVariables: {
-          primaryColor: '#0891b2',
-          primaryTextColor: '#fff',
-          primaryBorderColor: '#0e7490',
-          lineColor: '#64748b',
-          secondaryColor: '#dc2626',
-          tertiaryColor: '#059669'
-        }
+      
+      // Convert markdown code blocks to mermaid divs before initialization
+      document.addEventListener('DOMContentLoaded', function() {
+        // Find all code blocks with language-mermaid class
+        const mermaidCodeBlocks = document.querySelectorAll('code.language-mermaid');
+        
+        mermaidCodeBlocks.forEach(function(codeBlock) {
+          // Get the mermaid code content
+          const mermaidCode = codeBlock.textContent;
+          
+          // Create a new div with mermaid class
+          const mermaidDiv = document.createElement('div');
+          mermaidDiv.className = 'mermaid';
+          mermaidDiv.textContent = mermaidCode;
+          
+          // Replace the pre>code structure with the mermaid div
+          const preElement = codeBlock.parentElement;
+          preElement.parentElement.replaceChild(mermaidDiv, preElement);
+        });
+        
+        // Initialize mermaid after conversion
+        mermaid.initialize({ 
+          startOnLoad: true,
+          theme: 'base',
+          themeVariables: {
+            primaryColor: '#0891b2',
+            primaryTextColor: '#fff',
+            primaryBorderColor: '#0e7490',
+            lineColor: '#64748b',
+            secondaryColor: '#dc2626',
+            tertiaryColor: '#059669'
+          }
+        });
+        
+        // Manually render all mermaid elements
+        mermaid.run();
       });
     </script>
     
