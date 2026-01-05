@@ -29,3 +29,8 @@ design.md
 # generate_profile_report.py - local only
 # generate_sweetviz_report.py - local only
 # scrape_austender_2025.py - local only
+
+# Jekyll includes for analytics
+!_includes/
+_includes/*
+!_includes/head-custom.html
