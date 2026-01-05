@@ -26,6 +26,7 @@ reports/
 
 # Local scripts and docs (not committed)
 design.md
+social-media-posts.md
 # generate_profile_report.py - local only
 # generate_sweetviz_report.py - local only
 # scrape_austender_2025.py - local only

@@ -4,6 +4,14 @@ In 2025, the Australian Federal Government spent $97,692,769,058 on contracts wi
 
 I analyzed every contract to see where the money actually went. Here's what I found.
 
+**Important Note on Supplier Counting:**
+
+Supplier figures are based on exact legal entity names as recorded in AusTender. Large corporations with multiple subsidiaries (e.g., Thales Australia, Thales Australia Limited, Thales Australia - Lithgow) are counted separately as they are distinct legal entities with separate ABNs.
+
+This means actual corporate group concentration may be higher than reported. For example, the Thales corporate family received $329M across 656 contracts through 16 separate entities, though only "THALES AUSTRALIA" ($248M, 474 contracts) appears in rankings.
+
+Similar patterns exist for other corporate groups with multiple legal entities.
+
 ---
 
 ## The Concentration Story
