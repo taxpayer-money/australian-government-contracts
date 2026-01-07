@@ -1,8 +1,10 @@
-# Inside $97.7 Billion: Where Federal Money Went in 2025
+# Inside $97.7 Billion: Federal Procurement Contracts Awarded in 2025
 
 In 2025, the Australian Federal Government spent $97,692,769,058 on contracts with private companies. Across 64,930 contracts with 21,789 different suppliers.
 
 I analyzed every contract to see where the money actually went. Here's what I found.
+
+**Important:** This analysis covers procurement contracts only - it excludes social security payments (pensions, NDIS, Centrelink), Medicare, grants, state transfers, and public service salaries. Contract values shown are maximum amounts over the contract life (which may span multiple years), not annual expenditure. For total government spending, see [Budget Papers](https://budget.gov.au).
 
 **Important Note on Supplier Counting:**
 
@@ -48,7 +50,7 @@ This isn't a competitive marketplace in the traditional sense. It's a system whe
 
 The concentration statistics tell only part of the story. Suppliers are playing two completely different games in the same market.
 
-**The Lottery Play:** Spotless Facility Services won 1 contract worth $3.69 billion for base support services at Defence facilities - cleaning, catering, security, maintenance. Six years. One massive win.
+**The Lottery Play:** Spotless Facility Services won 1 contract worth $3.69 billion for comprehensive facility management at Defence bases - cleaning, catering, security, maintenance, firefighting, and base operations over 6 years. One massive win.
 
 **The Volume Play:** Thales Australia won 474 contracts worth $247.65 million. They didn't chase the mega-deal. They accumulated small victories month after month across Defence, Home Affairs, and other agencies.
 
