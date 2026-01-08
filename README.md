@@ -10,6 +10,24 @@ This repository contains publicly available contract data from AusTender (Federa
 
 ---
 
+## ⚠️ Important: What This Analysis Covers
+
+This analysis examines **procurement contracts awarded in 2025**, showing total contract values over their full life (which may span multiple years).
+
+**This is NOT total government spending.** It excludes:
+- Social security payments (Age Pension, NDIS, Centrelink)
+- Medicare and health transfers
+- Grants programs
+- Transfers to states/territories
+- Public service salaries
+- Direct departmental appropriations
+
+**Contract values** represent maximum amounts over the contract life, not annual expenditure. For comprehensive government spending, see the [Budget Papers](https://budget.gov.au) or [Parliamentary Budget Office](https://www.pbo.gov.au).
+
+**Analysis verification**: All statistics are generated from [`analyze_federal_contracts.py`](analyze_federal_contracts.py) - run it yourself to verify the numbers.
+
+---
+
 ## 📊 Datasets Overview
 
 ### Federal Government Contracts (AusTender 2025)
