@@ -1,8 +1,8 @@
-# Australian Government Procurement 2025
+# Australian Government Contracts Executed in 2025
 
-**Comprehensive analysis of $99.33 billion in public spending**
+**Public data on $99.33 billion in procurement contracts**
 
-This site presents detailed analysis of Australian government procurement in 2025, covering both federal and ACT territory contracts. All data is publicly available and sourced from official government portals.
+This site provides datasets and statistics on Australian government procurement contracts executed in 2025, covering both federal and ACT territory contracts. All data is publicly available and sourced from official government portals.
 
 ---
 
@@ -22,53 +22,37 @@ This site presents detailed analysis of Australian government procurement in 202
 
 ---
 
-## 📈 Analysis Reports
+## 📈 Reports
 
-### [Federal Procurement: Inside $97.7 Billion](federal-report.md)
+### [Federal Procurement Contracts Executed in 2025](federal-report.md)
 
-Where federal money went in 2025. Analysis of supplier concentration, mega-deals, employment services industry, and Defence spending patterns.
+Statistical breakdown of 64,930 federal contracts worth $97.69 billion.
 
-**Key Findings:**
-- Top 20 suppliers control 34.6% ($33.83B)
-- 151 mega-contracts over $100M = 56.5% of total value
-- Employment services: $12.0B dominated by 5 providers
-- Defence: $49.09B (50% of federal spending)
-- 57.7% of contracts are limited tenders
+**Dataset includes:**
+- Contract value distribution by size
+- Top 20 suppliers by value
+- Agency procurement summary
+- Geographic distribution
+- Procurement methods
+- Supplier contract volume
 
-**[Read Full Federal Report →](federal-report.md)**
-
----
-
-### [ACT Procurement: Inside $1.64 Billion](act-report.md)
-
-The story of ACT Government spending in 2025. Analysis of market concentration, temporal patterns, and supplier strategies.
-
-**Key Findings:**
-- Top 2 suppliers control 43% with just 2 contracts
-- October 2025: $604M in contracts (10x quiet months)
-- Multi-year contracts 13.9x more valuable than single-year
-- 826 contracts (63.7%) under $200K - accessible to SMEs
-
-**[Read Full ACT Report →](act-report.md)**
+**[View Federal Report →](federal-report.md)**
 
 ---
 
-## 🎯 Key Insights Across Both Levels
+### [ACT Government Contracts Executed in 2025](act-report.md)
 
-### Supplier Concentration
-Both federal and state procurement show extreme concentration:
-- **Federal**: Top 100 suppliers = 62% of value
-- **ACT**: Top 20 contracts = 74.2% of value
+Statistical breakdown of 1,296 ACT contracts worth $1.64 billion.
 
-### Mega-Deal Dominance
-A small number of massive contracts drive spending:
-- **Federal**: 151 contracts over $100M = 56.5% ($55.2B)
-- **ACT**: 2 contracts = 43% ($705M)
+**Dataset includes:**
+- Contract value distribution by size
+- Top 20 contracts by value
+- Directorate procurement summary
+- Monthly contract activity
+- Top suppliers by volume
+- Contract duration analysis
 
-### Procurement Transparency
-- **Federal**: 57.7% limited tenders (restricted competition)
-- **Federal Civilian**: 79.4% open tenders (excluding Defence)
-- **ACT**: More transparent, smaller scale
+**[View ACT Report →](act-report.md)**
 
 ---
 
@@ -94,4 +78,4 @@ Not affiliated with or endorsed by any government agency.
 
 ---
 
-**Built for transparency in government procurement**
+**Data published for public access to government procurement information**

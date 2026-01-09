@@ -1,30 +1,12 @@
 # Australian Government Contracts - Open Data
 
-**Comprehensive datasets and insights on Australian Federal and ACT Government contracts 2025**
+**Public datasets of Australian Federal and ACT Government contracts executed in 2025**
 
-This repository contains publicly available contract data from AusTender (Federal) and the ACT Government Tenders Portal, along with detailed narrative analysis revealing spending patterns, supplier concentration, and procurement transparency.
+This repository contains publicly available contract data from AusTender (Federal) and the ACT Government Tenders Portal.
 
 **🌐 Live Site**: [https://taxpayer-money.github.io/australian-government-contracts/](https://taxpayer-money.github.io/australian-government-contracts/)
 
 **Total Public Data**: $99.33 billion across 66,226 contracts
-
----
-
-## ⚠️ Important: What This Analysis Covers
-
-This analysis examines **procurement contracts awarded in 2025**, showing total contract values over their full life (which may span multiple years).
-
-**This is NOT total government spending.** It excludes:
-- Social security payments (Age Pension, NDIS, Centrelink)
-- Medicare and health transfers
-- Grants programs
-- Transfers to states/territories
-- Public service salaries
-- Direct departmental appropriations
-
-**Contract values** represent maximum amounts over the contract life, not annual expenditure. For comprehensive government spending, see the [Budget Papers](https://budget.gov.au) or [Parliamentary Budget Office](https://www.pbo.gov.au).
-
-**Analysis verification**: All statistics are generated from [`analyze_federal_contracts.py`](analyze_federal_contracts.py) - run it yourself to verify the numbers.
 
 ---
 
@@ -36,12 +18,12 @@ This analysis examines **procurement contracts awarded in 2025**, showing total 
 - **Data Coverage**: All federal agencies
 - **File**: [`data/austender_2025_contracts.csv`](data/austender_2025_contracts.csv)
 
-**Key Statistics**:
+**Summary Statistics**:
 - **Unique Suppliers**: 21,789
 - **Largest Contract**: $3.69B (Spotless Facility Services)
 - **Median Contract**: $63,695
 - **Average Contract**: $1.50M
-- **Top Agency**: Department of Defence ($49.09B, 50%)
+- **Top Agency by Value**: Department of Defence ($49.09B, 50%)
 
 ### ACT Government Contracts (2025)
 - **Total Contracts**: 1,296
@@ -49,50 +31,16 @@ This analysis examines **procurement contracts awarded in 2025**, showing total 
 - **Data Coverage**: All ACT directorates
 - **File**: [`data/act_contracts_2025.csv`](data/act_contracts_2025.csv)
 
-**Key Statistics**:
+**Summary Statistics**:
 - **Unique Suppliers**: 772
 - **Largest Contract**: $420M (SG Fleet - fleet management)
 - **Median Contract**: $66,900
 - **Average Contract**: $1.26M
-- **Top Directorate**: Health ($400M, 24%)
+- **Top Directorate by Value**: Chief Minister, Treasury ($518M, 32%)
 
----
+**[View Federal Report →](https://taxpayer-money.github.io/australian-government-contracts/federal-report.html)**
 
-## 📈 Key Insights
-
-### Federal Government (AusTender)
-
-**Procurement Transparency**:
-- 57.7% of contracts are limited tenders (restricted competition)
-- Open tenders account for 62.6% of value ($61.15B)
-- Defence drives down transparency: civilian agencies 79.4% open tender
-
-**Supplier Concentration**:
-- Top 10 suppliers control $22.94B (23.5% of total)
-- Top 100 suppliers control $60.54B (62.0% of total)
-- 21,789 suppliers compete, but market highly concentrated
-
-**Employment Services Industry** ($12.0B, 12.3% of federal spending):
-- Top 5 providers: Serendipity ($1.40B), Atwork ($1.19B), Sureway ($0.91B)
-- 30 mega-contracts control 60% of employment services value
-- Department of Social Services: $11.89B (99% of employment spending)
-
-**Geographic Distribution**:
-- NSW: $34.06B (34.9%) - Sydney dominates
-- VIC: $23.73B (24.3%) - Melbourne second
-- ACT: $12.84B (13.1%) - Canberra proximity benefit
-
-### ACT Government
-
-**Key Findings**:
-- Top 2 suppliers control 43% of 2025 market with just 2 contracts
-- October 2025 saw $604M in contracts - 10x quiet months
-- Multi-year contracts average 13.9x more valuable than single-year
-- 826 contracts (63.7%) under $200K - accessible to SMEs
-
-**[Read Full ACT Report →](https://taxpayer-money.github.io/australian-government-contracts/act-report.html)**
-
-**[Read Full Federal Report →](https://taxpayer-money.github.io/australian-government-contracts/federal-report.html)**
+**[View ACT Report →](https://taxpayer-money.github.io/australian-government-contracts/act-report.html)**
 
 ---
 
@@ -159,12 +107,11 @@ This analysis examines **procurement contracts awarded in 2025**, showing total 
 - Supplier diversity research
 
 ### For Journalists
-- Investigate large contracts and mega-deals
-- Track spending anomalies and concentration
-- Analyze supplier relationships and oligopolies
-- Monitor procurement transparency (open vs limited tenders)
-- Compare federal vs state spending patterns
-- Employment services industry investigation
+- Investigate large contracts
+- Track spending patterns
+- Analyze supplier relationships
+- Compare federal vs state procurement
+- Research specific contract categories
 
 ### For Policy Makers
 - Benchmark procurement practices
@@ -219,4 +166,4 @@ Data accuracy depends on the source portals. While we strive for accuracy, pleas
 
 ---
 
-**Built with ❤️ for transparency in government procurement**
+**Data published for public access to government procurement information**

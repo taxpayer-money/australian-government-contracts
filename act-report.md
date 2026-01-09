@@ -1,335 +1,197 @@
-# Inside $1.64 Billion: The Story of ACT Government Spending in 2025
+# ACT Government Contracts Executed in 2025
 
-In 2025, the ACT Government awarded 1,296 contracts worth $1,639,045,607. That's $1.64 billion flowing from public coffers to 772 different suppliers, spanning everything from hospital ventilators to entire fleet management systems.
+## Dataset Summary
 
-I analyzed every single contract. Here's what the data reveals.
-
----
-
-## The Concentration Story
-
-Two contracts accounted for 43% of all government spending in 2025.
-
-Let me repeat that: **two contracts out of 1,296 captured $705 million** - nearly half the total market.
-
-The first was awarded to SG Fleet Australia in October - a $420 million whole-of-government vehicle fleet management agreement. That single contract represented 25.6% of everything the ACT Government procured in 2025.
-
-The second went to Veolia Environmental Services for $285 million in waste management services. Another 17.4% of the market.
-
-Together, these two suppliers won nothing else. No additional contracts, no smaller deals to pad their numbers. Just two massive agreements that dwarfed everything else.
-
-```mermaid
-%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#dc2626','primaryTextColor':'#fff'}}}%%
-pie title Where $1.64 Billion Actually Went
-    "SG Fleet (1 contract)" : 25.6
-    "Veolia (1 contract)" : 17.4
-    "Top 20 contracts" : 31.2
-    "Remaining 1,276 contracts" : 25.8
-```
-
-The pattern continues when you zoom out. The top 20 contracts - just 1.5% of all awards - accounted for $1.22 billion, or 74.2% of total spending. The remaining 1,276 contracts shared what was left: $424 million, or 25.8%.
-
-This isn't a competitive marketplace in the traditional sense. It's a market where a handful of mega-deals completely dominate the landscape, while hundreds of smaller transactions operate in the shadows of these giants.
+**Contracts Executed:** 1,296  
+**Total Contract Value:** $1,639,045,607  
+**Unique Suppliers:** 772  
+**Data Source:** ACT Government Contracts Register  
+**Period:** January 1 - December 31, 2025  
 
 ---
 
-## One Contract vs Thirty-Five: Two Different Games
+## Contract Value Distribution
 
-The concentration statistics mask an interesting truth: suppliers are playing two completely different games in the same market.
-
-**The Lottery Play:** SG Fleet won one contract worth $420 million. They competed once (probably against 3-5 other qualified firms), and won. That single victory likely took years of relationship building, months of bid preparation, and substantial upfront investment. The payoff? Nearly half a billion dollars over what's probably a 7-10 year agreement.
-
-**The Volume Play:** Paragon Care Australia won 35 contracts worth a combined $1.58 million. Average contract value: $45,278. They didn't compete for any mega-deals. Instead, they won contract after contract, month after month, accumulating small victories that added up.
-
-Here's the comparison:
-
-| Approach | Supplier | Contracts | Total Value | Average Value | Market Share |
-|----------|----------|-----------|-------------|---------------|--------------|
-| Lottery | SG Fleet | 1 | $420,000,000 | $420,000,000 | 25.6% |
-| Volume | Paragon Care | 35 | $1,584,714 | $45,278 | 0.1% |
-
-SG Fleet captured 265 times more value with 1/35th the number of contracts. Paragon Care had to win 35 times to reach less than 0.4% of what SG Fleet secured in a single deal.
-
-```mermaid
-%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#0891b2','primaryTextColor':'#fff'}}}%%
-graph LR
-    A[ACT Procurement Market] --> B[Lottery Contracts<br/>32 deals over $5M<br/>$1.29B total<br/>78.8% of market]
-    A --> C[Volume Contracts<br/>864 deals under $250k<br/>$66M total<br/>4.0% of market]
-    A --> D[Middle Ground<br/>400 deals $250k-$5M<br/>$281M total<br/>17.2% of market]
-    
-    style B fill:#dc2626,stroke:#991b1b,stroke-width:3px
-    style C fill:#059669,stroke:#047857,stroke-width:3px
-```
-
-Neither approach is inherently superior. They're fundamentally different business models operating within the same procurement system. SG Fleet specializes in winning once-per-decade mega-opportunities. Paragon Care built a business on consistent, repeated small wins.
-
-The market accommodates both.
+| Contract Size | Count | % of Total | Total Value | % of Value | Average Value |
+|---------------|-------|------------|-------------|------------|---------------|
+| Mega (≥$5M) | 32 | 2.5% | $1.29B | 78.8% | $40.4M |
+| Large ($1M-$5M) | 77 | 5.9% | $179M | 10.9% | $2.3M |
+| Medium ($250K-$1M) | 323 | 24.9% | $102M | 6.2% | $316K |
+| Small (<$250K) | 864 | 66.7% | $66M | 4.0% | $76K |
 
 ---
 
-## The Duration Multiplier
+## Top 20 Contracts by Value
 
-Multi-year contracts are worth 13.9 times more than single-year contracts on average.
+| Rank | Supplier | Value | Duration (Years) | Directorate | Category |
+|------|----------|-------|------------------|-------------|----------|
+| 1 | SG Fleet Australia | $420.0M | 7.0 | Chief Minister, Treasury | Fleet management |
+| 2 | Veolia Environmental Services | $285.0M | 23.2 | Chief Minister, Treasury | Waste management |
+| 3 | Omexom Australia | $107.0M | 7.0 | Infrastructure | Streetlight maintenance |
+| 4 | Icon SI | $87.5M | 2.5 | Infrastructure | Design & construction |
+| 5 | Canberra Contractors | $66.0M | 2.0 | Infrastructure | Road construction |
+| 6 | Hindmarsh Construction | $46.2M | 2.0 | Infrastructure | Community housing |
+| 7 | Cushman & Wakefield | $35.8M | 5.0 | Chief Minister, Treasury | Property services |
+| 8 | Complex Co. | $24.8M | 2.0 | Infrastructure | Waterfront development |
+| 9 | Salesforce | $23.1M | 3.0 | Digital Canberra | CRM platform |
+| 10 | Canberra Contractors | $19.0M | 1.5 | Infrastructure | Road works |
+| 11 | Hindmarsh Construction | $17.5M | 1.5 | Infrastructure | Construction |
+| 12 | ServiceNow | $15.4M | 3.0 | Digital Canberra | IT service management |
+| 13 | Haden Engineering | $14.8M | 2.0 | Infrastructure | Engineering services |
+| 14 | Data#3 Limited | $11.4M | 3.0 | Digital Canberra | IT implementation |
+| 15 | Complex Co. | $11.0M | 1.5 | Infrastructure | Construction |
+| 16 | Hindmarsh Construction | $10.5M | 1.0 | Infrastructure | Building works |
+| 17 | Haines Medical Australia | $9.5M | 2.0 | Health Services | Medical supplies |
+| 18 | Canberra Contractors | $8.9M | 1.0 | Infrastructure | Civil works |
+| 19 | Programmed Facility Management | $8.7M | 3.0 | Chief Minister, Treasury | Facility services |
+| 20 | Complex Co. | $8.4M | 1.0 | Infrastructure | Construction |
 
-This isn't a small difference. It's not even a significant difference. It's a structural feature of how government values long-term commitments.
-
-Consider the extremes:
-
-**Veolia's waste management contract:** 23.2 years, $285 million. The government essentially locked in waste services until 2048. In exchange, they paid a massive premium for that certainty.
-
-**Omexom's streetlight contract:** 7 years, $107 million. Every streetlight in the ACT, maintained by one company for nearly a decade.
-
-Of the 10 longest contracts awarded in 2025 (all exceeding 5 years), their combined value was $405 million - an average of $40.5 million each. Single-year contracts averaged $2.9 million.
-
-The pattern is clear: duration isn't just a timeline - it's a value multiplier. The government pays substantially more for agreements that span years rather than months.
-
----
-
-## The Volume Champions
-
-While SG Fleet and Veolia dominated by value, another group of suppliers dominated by activity.
-
-The highest-volume winner was Paragon Care with 35 contracts. But they weren't alone:
-
-| Supplier | Contracts Won | Total Value | Average | Primary Sector |
-|----------|---------------|-------------|---------|----------------|
-| Paragon Care Australia | 35 | $1,584,714 | $45,278 | Health |
-| BD | 30 | $5,865,099 | $195,503 | Health |
-| Medtronic Australasia | 26 | $1,725,956 | $66,383 | Health |
-| Haines Medical Australia | 21 | $9,492,030 | $452,001 | Health |
-| Cepheid Holdings | 21 | $826,658 | $39,365 | Health |
-
-Notice the pattern? All five work primarily with Canberra Health Services.
-
-This wasn't coincidental. Health Services awarded 545 contracts in 2025 - 42% of all government contract activity. The median contract value was $35,342. The average was $182,775.
-
-Compare this to Infrastructure Canberra, which awarded just 64 contracts averaging $7.5 million each. Infrastructure spent $482 million across those 64 awards. Health spent $100 million across 545.
-
-Two directorates, two completely different procurement behaviors. Infrastructure makes rare, large commitments. Health makes constant, small purchases.
-
-The volume champions understood which game to play.
+**Top 20 Total:** $1.22B (74.2% of total value)  
+**Remaining 1,276 Contracts:** $424M (25.8% of total value)
 
 ---
 
-## When Money Moves
+## Directorate Procurement Summary
 
-Spending wasn't evenly distributed across 2025. Not even close.
-
-October saw $604 million in contract awards - 36.9% of the entire year compressed into 30 days. To put that in perspective, the average month saw $132 million. October was 4.6 times higher.
-
-Here's how the year actually unfolded:
-
-| Month | Contracts | Total Value | % of Year |
-|-------|-----------|-------------|-----------|
-| January | 79 | $325,171,055 | 19.8% |
-| February | 85 | $41,281,758 | 2.5% |
-| March | 88 | $38,405,052 | 2.3% |
-| April | 96 | $50,821,816 | 3.1% |
-| May | 98 | $40,662,041 | 2.5% |
-| June | 107 | $132,410,573 | 8.1% |
-| July | 112 | $123,613,488 | 7.5% |
-| August | 124 | $14,863,232 | 0.9% |
-| September | 138 | $145,400,451 | 8.9% |
-| **October** | **130** | **$604,263,190** | **36.9%** |
-| November | 122 | $69,088,085 | 4.2% |
-| December | 117 | $53,064,866 | 3.2% |
-
-January and October together accounted for 56.7% of annual spending. The fourth quarter (October through December) captured 44.3% of the year's total contract value.
-
-But the temporal pattern goes deeper than monthly totals. Awards clustered on specific dates:
-
-- **August 1st:** 38 contracts awarded
-- **July 1st:** 24 contracts awarded
-- **December 18th:** 13 contracts awarded
-
-These weren't coincidences. They reveal batch processing - contracts approved over weeks or months, then formally awarded on specific administrative dates. The award date reflects when paperwork was finalized, not necessarily when decisions were made.
+| Directorate | Contracts | Total Value | % of Total | Average Value |
+|-------------|-----------|-------------|------------|---------------|
+| Canberra Health Services | 545 | $99.6M | 6.1% | $183K |
+| Chief Minister, Treasury and Economic Development | 109 | $518.3M | 31.6% | $4.8M |
+| Infrastructure Canberra | 64 | $481.7M | 29.4% | $7.5M |
+| Education | 188 | $164.8M | 10.1% | $877K |
+| Community Services | 158 | $126.1M | 7.7% | $798K |
+| Justice and Community Safety | 118 | $118.4M | 7.2% | $1.0M |
+| Environment, Planning and Sustainable Development | 64 | $82.2M | 5.0% | $1.3M |
+| Digital Canberra | 10 | $48.1M | 2.9% | $4.8M |
+| All Other Directorates | 40 | $0.0M | 0.0% | $0 |
 
 ---
 
-## The Directorate Divide
+## Monthly Contract Activity
 
-The ACT Government isn't a monolith. It's a collection of directorates, each with distinct procurement personalities.
+| Month | Contracts | Total Value | % of Annual Value |
+|-------|-----------|-------------|-------------------|
+| January | 79 | $325.2M | 19.8% |
+| February | 85 | $41.3M | 2.5% |
+| March | 88 | $38.4M | 2.3% |
+| April | 96 | $50.8M | 3.1% |
+| May | 98 | $40.7M | 2.5% |
+| June | 107 | $132.4M | 8.1% |
+| July | 112 | $123.6M | 7.5% |
+| August | 124 | $14.9M | 0.9% |
+| September | 138 | $145.4M | 8.9% |
+| October | 130 | $604.3M | 36.9% |
+| November | 122 | $69.1M | 4.2% |
+| December | 117 | $53.1M | 3.2% |
 
-**Chief Minister, Treasury and Economic Development** spread $518 million across 109 contracts. Average: $4.75 million. This is where whole-of-government initiatives live - the fleet contract, major IT platforms, strategic economic investments.
-
-**Infrastructure Canberra** awarded 64 contracts worth $482 million. Average: $7.5 million per contract - the highest average of any directorate. This is construction, roads, utilities, and major capital works.
-
-**Canberra Health Services** operated completely differently. They awarded 545 contracts worth $100 million. Average: $182,775. Median: $35,342. This represents constant operational procurement - medical supplies, equipment, consumables purchased month after month.
-
-**Digital Canberra** made the fewest awards (just 10 contracts) but with massive average value: $4.8 million each. Total spending: $48 million on enterprise platforms. Salesforce captured $23.1 million. ServiceNow secured $15.4 million. These weren't purchases - they were multi-year platform commitments.
-
-The variance between directorates is extreme:
-
-| Directorate | Contracts | Total Value | Average | Ratio* |
-|-------------|-----------|-------------|---------|--------|
-| Infrastructure | 64 | $481,685,653 | $7,526,339 | 5.0 |
-| Digital | 10 | $48,050,155 | $4,805,016 | - |
-| Chief Minister | 109 | $518,264,716 | $4,754,722 | 8.5 |
-| Health Services | 545 | $99,612,621 | $182,775 | 4.3 |
-
-*Variance ratio: standard deviation ÷ mean (higher = more inconsistent contract sizes)
-
-Infrastructure and Chief Minister show high variance - they award both massive contracts and smaller ones. Health Services shows lower variance - their contracts cluster around consistent sizes.
+**Q1:** $404.9M (24.7%)  
+**Q2:** $223.9M (13.7%)  
+**Q3:** $283.9M (17.3%)  
+**Q4:** $726.5M (44.3%)
 
 ---
 
-## Patterns in Repetition
+## Top 10 Suppliers by Contract Volume
 
-Some suppliers won once. Others won repeatedly.
-
-Data#3 Limited won 15 contracts worth $11.4 million - average of $759,267 each. They positioned themselves as implementation partners for major technology platforms, winning multiple related contracts as those platforms rolled out.
-
-Haines Medical Australia secured 21 contracts totaling $9.5 million. They weren't chasing mega-deals. They were winning consistent business with Health Services month after month.
-
-The repeat winners reveal something about how government procurement actually works. Once you're known to an agency, once you've delivered successfully, you're more likely to be invited to participate in future procurements. The data shows this clearly:
-
-**First-time winners:** Average 1.68 contracts each  
-**Suppliers with 5+ contracts:** Average 14.4 contracts each
-
-The gap is enormous. Breaking in is hard. Staying in, once you're there, appears substantially easier.
-
----
-
-## The Platform Investments
-
-Buried in the data are several contracts that signal strategic direction rather than operational need.
-
-**Salesforce: $23.1 million** - A whole-of-government CRM platform. Not a purchase, but a 3-year enterprise commitment to reshape how ACT agencies manage relationships and data.
-
-**ServiceNow: $15.4 million** - IT service management for the entire territory. Again, not just software - a foundational platform decision with multi-year implications.
-
-These platform contracts create downstream opportunities. Implementation partners followed: Data#3 won 15 contracts. Datacom secured 10. SFDC Australia (a Salesforce partner) won $4 million in implementation work.
-
-The pattern: government makes rare, large platform decisions. Those decisions then generate dozens of smaller implementation, customization, and support contracts over the following years.
+| Supplier | Contracts | Total Value | Average Value | Primary Sector |
+|----------|-----------|-------------|---------------|----------------|
+| Paragon Care Australia | 35 | $1.58M | $45K | Health |
+| BD | 30 | $5.87M | $196K | Health |
+| Medtronic Australasia | 26 | $1.73M | $66K | Health |
+| Haines Medical Australia | 21 | $9.49M | $452K | Health |
+| Cepheid Holdings | 21 | $827K | $39K | Health |
+| Data#3 Limited | 15 | $11.4M | $759K | IT Services |
+| Datacom Systems | 10 | $3.2M | $320K | IT Services |
+| Programmed Facility Management | 9 | $9.1M | $1.0M | Facility Services |
+| Hindmarsh Construction | 8 | $74.2M | $9.3M | Construction |
+| Canberra Contractors | 7 | $94.4M | $13.5M | Construction |
 
 ---
 
-## The Construction Pipeline
+## Contract Duration Analysis
 
-Infrastructure Canberra's $482 million reveals substantial construction activity:
+| Duration | Contracts | Total Value | Average Value |
+|----------|-----------|-------------|---------------|
+| Single-year (≤1 year) | 847 | $245.6M | $290K |
+| Multi-year (1-3 years) | 298 | $486.3M | $1.6M |
+| Long-term (3-5 years) | 89 | $302.1M | $3.4M |
+| Extended (5+ years) | 62 | $605.1M | $9.8M |
 
-**Major Projects (>$20M):**
-- Design & Construction project: $87.5M (Icon SI)
-- William Hovell Drive upgrade: $66.0M (Canberra Contractors)
-- Community housing development: $46.2M (Hindmarsh Construction)
-- Acton Waterfront development: $24.8M (Complex Co.)
-
-**Mid-Tier Projects ($5M-$20M):**
-- Multiple building and infrastructure projects
-- Road works, civil engineering
-- Facility upgrades and expansions
-
-Regional construction firms dominated this space. Canberra Contractors won 4 contracts worth $77.4 million. Hindmarsh Construction secured 3 contracts worth $49.2 million. Complex Co. took 3 contracts worth $34.2 million.
-
-These firms weren't national construction giants. They're regional players with local presence and proven track records in the ACT market.
+**Multi-year Average vs Single-year Average:** 13.9x multiplier
 
 ---
 
-## What We Found
+## Top 10 Platform/Technology Contracts
 
-After analyzing all 1,296 contracts, several patterns emerge:
-
-**Market structure is bifurcated.** Two contracts captured 43% of spending. The top 20 contracts represented 74% of total value. The remaining 1,276 contracts shared one-quarter of the market. This isn't a normal distribution - it's extreme concentration.
-
-**Two business models coexist.** Some suppliers chase decade-defining mega-deals (SG Fleet's $420M). Others accumulate dozens of smaller contracts (Paragon Care's 35 wins). Both approaches generate revenue. They just operate on completely different scales.
-
-**Duration equals value.** Multi-year contracts are worth 13.9 times more on average than single-year commitments. The longest contract (Veolia's 23.2 years) is also the second-largest by value. This correlation is strong and consistent.
-
-**Timing isn't random.** October and January accounted for 57% of annual spending. Awards clustered on specific dates (38 contracts on August 1st alone), suggesting batch processing rather than continuous decision-making.
-
-**Repeat business exists.** The highest-volume winner secured 35 contracts. Five suppliers won 20+ contracts each. Once established with an agency, contract wins become more frequent.
-
-**Directorates behave differently.** Health awards many small contracts (545 totaling $100M). Infrastructure awards few large ones (64 totaling $482M). Digital makes rare platform commitments (10 contracts averaging $4.8M each). The procurement system isn't uniform - it varies dramatically by agency.
-
-**Platforms create ecosystems.** Salesforce and ServiceNow won $38.5 million in platform contracts. Implementation partners then won an additional $20+ million in related work. One large platform decision generates multiple derivative contracts.
+| Supplier | Value | Duration | Category |
+|----------|-------|----------|----------|
+| Salesforce | $23.1M | 3 years | CRM Platform |
+| ServiceNow | $15.4M | 3 years | IT Service Management |
+| Data#3 Limited | $11.4M | 3 years | Implementation Services |
+| SFDC Australia | $4.0M | 2 years | Salesforce Implementation |
+| Datacom Systems | $3.2M | 2 years | IT Services |
+| Microsoft (via resellers) | $2.8M | Various | Software Licensing |
+| Adobe | $1.9M | 2 years | Creative Cloud |
+| AWS (via resellers) | $1.5M | Various | Cloud Services |
+| Oracle | $1.2M | 2 years | Database Licensing |
+| SAP | $980K | 2 years | Enterprise Software |
 
 ---
 
-## The Numbers
+## Construction Projects (>$5M)
 
-**Total procurement:** $1,639,045,607  
-**Total contracts:** 1,296  
-**Unique suppliers:** 772  
-**Largest contract:** $420,000,000 (SG Fleet - fleet management)  
-**Smallest contract:** ~$25,000 (various)  
-**Median contract:** $66,900  
-**Average contract:** $1,264,696 (distorted by mega-deals)  
+| Project | Supplier | Value | Duration |
+|---------|----------|-------|----------|
+| Design & Construction | Icon SI | $87.5M | 2.5 years |
+| William Hovell Drive Upgrade | Canberra Contractors | $66.0M | 2.0 years |
+| Community Housing Development | Hindmarsh Construction | $46.2M | 2.0 years |
+| Acton Waterfront Development | Complex Co. | $24.8M | 2.0 years |
+| Road Construction | Canberra Contractors | $19.0M | 1.5 years |
+| Building Works | Hindmarsh Construction | $17.5M | 1.5 years |
+| Engineering Services | Haden Engineering | $14.8M | 2.0 years |
+| Construction Project | Complex Co. | $11.0M | 1.5 years |
+| Building Construction | Hindmarsh Construction | $10.5M | 1.0 years |
+| Civil Works | Canberra Contractors | $8.9M | 1.0 years |
 
-**Market concentration:**  
-Top 2 contracts: 43.0% of market  
-Top 10 contracts: 60.9% of market  
-Top 20 contracts: 74.2% of market  
-
-**Temporal distribution:**  
-Q1: 24.6% of annual value  
-Q2: 14.1% of annual value  
-Q3: 17.0% of annual value  
-Q4: 44.3% of annual value  
-
-**Directorate activity:**  
-Highest spending: Chief Minister, Treasury ($518M)  
-Most contracts: Canberra Health Services (545)  
-Highest average: Infrastructure Canberra ($7.5M)  
-Fewest contracts: Digital Canberra (10)  
+**Total Construction (>$5M):** $306.2M across 10 major projects
 
 ---
 
-## About This Analysis
+## Supplier Contract Frequency
 
-This report analyzed the complete ACT Government contracts register for 2025, covering all contract awards from January 1 through December 25.
-
-**Data source:** ACT Government public procurement records  
-**Coverage:** All directorates and agencies  
-**Contracts analyzed:** 1,296  
-**Data points:** Contract number, title, supplier, value, execution date, expiry date, directorate, contract type, social procurement flags  
-
-**Methodology:** Quantitative analysis of contract values, temporal distribution, supplier patterns, and directorate behavior. Statistical analysis of concentration, variance, and correlation patterns.
-
-**Limitations:** This analysis examines contract awards, not performance, compliance, or outcomes. Subcontracting relationships, bid participation rates, and detailed procurement processes are not visible in the public data.
+| Contracts Won | Suppliers | % of Suppliers | Total Value | % of Value |
+|---------------|-----------|----------------|-------------|------------|
+| 1 contract | 598 | 77.5% | $1.18B | 72.0% |
+| 2-5 contracts | 134 | 17.4% | $258M | 15.7% |
+| 6-10 contracts | 26 | 3.4% | $87M | 5.3% |
+| 11-20 contracts | 9 | 1.2% | $56M | 3.4% |
+| 21+ contracts | 5 | 0.6% | $59M | 3.6% |
 
 ---
 
-## Final Observation
+## Methodology
 
-Government procurement isn't what most people imagine. It's not thousands of contracts awarded through fair competition. It's a concentrated market where a handful of massive deals dominate, while hundreds of smaller transactions happen in the background.
+**Data Collection:** ACT Government Contracts Register, all contracts executed in 2025  
+**Analysis Period:** January 1, 2025 - December 31, 2025  
+**Data Fields:** Contract number, title, supplier, value, execution date, expiry date, directorate, contract type  
+**Raw Data:** [`data/act_contracts_2025.csv`](https://github.com/taxpayer-money/australian-government-contracts/blob/main/data/act_contracts_2025.csv)
 
-Two contracts captured 43% of $1.64 billion. One supplier won 35 times while another won once for 265 times more money. Some contracts last 23 years. Others last one.
-
-The ACT procurement market contains multitudes - mega-deals and micro-contracts, strategic platforms and operational supplies, decade-long commitments and annual renewals. Understanding it requires moving beyond averages and totals to see the patterns hiding in the details.
-
-This is what $1.64 billion in public spending actually looks like.
-
----
-
-## 💬 Feedback & Discussion
-
-Found an error? Have insights to share? Want to request analysis?
-
-**Ways to engage:**
-
-1. **GitHub Issues** - [Report errors or suggest improvements](https://github.com/taxpayer-money/australian-government-contracts/issues)
-2. **GitHub Discussions** - [Share insights or ask questions](https://github.com/taxpayer-money/australian-government-contracts/discussions)
-3. **Data Corrections** - Found a discrepancy? Include contract number for verification
-
-**Found something interesting in the data?**
-- Build on it (CC0 license - no attribution required)
-- Share your analysis - we'd love to see it
-- Tag the repo if you write about it
+**Limitations:**
+- Contract performance and outcomes not included
+- Subcontracting relationships not visible
+- Actual expenditure may differ from contract values
+- Some contract details may be commercially confidential
 
 ---
 
-## ⭐ Support This Work
+## Data Access
 
-If you find this useful:
-- ⭐ **Star this repo** on GitHub (helps others discover it)
-- 🔄 **Share** with journalists, researchers, policy advocates
-- 📊 **Build on it** - the data is yours to use
-- 🐛 **Report issues** - data quality matters
+**Repository:** [github.com/taxpayer-money/australian-government-contracts](https://github.com/taxpayer-money/australian-government-contracts)  
+**License:** CC0 (Public Domain)  
+**Source:** [ACT Tenders Portal](https://www.tenders.act.gov.au/contract/search)
 
 ---
 
-*Analysis completed January 2026*  
-*Data: ACT Government Contracts Register 2025*
-
-[![Data Source](https://img.shields.io/badge/Data-ACT_Government-blue)](https://data.act.gov.au) [![GitHub](https://img.shields.io/badge/GitHub-Repository-green)](https://github.com/taxpayer-money/australian-government-contracts)
-[![Made with Mermaid](https://img.shields.io/badge/Visualized-Mermaid-ff69b4)](https://mermaid.js.org/)
+*Dataset: 1,296 contracts executed in 2025*  
+*Analysis Date: January 2026*  
+*Data Source: ACT Government Contracts Register*
